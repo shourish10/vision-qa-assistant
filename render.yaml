@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vision-qa-assistant
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    plan: free
