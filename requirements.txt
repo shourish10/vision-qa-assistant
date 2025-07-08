@@ -1,0 +1,7 @@
+flask
+requests
+Flask
+openai
+python-dotenv
+requests
+# plus anything else like Pillow, transformers, etc.
